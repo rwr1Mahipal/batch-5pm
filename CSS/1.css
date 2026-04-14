@@ -1,0 +1,27 @@
+.heading {
+  color: blue;
+  font-size: 100px;
+}
+
+.box-heading {
+  color: aqua;
+}
+
+#footer-heading {
+  color: brown;
+}
+
+.continer-paragraph {
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-indent: 150px;
+  /* text-align: ; */
+  
+}
+
+.continer-paragraph span {
+  color: burlywood;
+  text-decoration: line-through;
+  font-style: italic;
+  font-weight: 800;
+}

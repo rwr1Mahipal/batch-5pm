@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1::after{
+            content: " Student's";
+            color: rebeccapurple;
+        }
+        h1::before{
+            content: "Hey ";
+            color: aqua;
+        }
+        .div-box{
+            width: 300px;
+            height: 300px;
+            border: 1px solid brown;
+            /* transform: translate(100px, -50px); */
+            /* transform: translateX(200px); */
+            /* transform: rotate(120deg); */
+            /* transform: skew(230deg); */
+            /* transform: skew(230deg); */
+            /* transition-property: transform;
+            transition-duration: 3s;
+            transition-timing-function: ease-in;
+            transition-delay: 5s; */
+            transition: all 3s ease-in;
+        }
+        .div-box:hover{
+            background: black;
+            cursor: pointer;
+            /* transform: skew(230deg); */
+            transform: rotate(120deg);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Hello</h1>
+
+    <div class="div-box"></div>
+</body>
+</html>
